@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Appseconnect_Form::manager" title="Form" module="Appseconnect_Form" sortOrder="30" resource="Appseconnect_Form::manager" />
+        <add id="Appseconnect_Form::add_row" title="Form Manager" module="Appseconnect_Form" sortOrder="20" parent="Appseconnect_Form::manager" action="grid/grid" resource="Appseconnect_Form::add_row"/>
+    </menu>
+</config>
